@@ -8,8 +8,8 @@ const NavBar = ({children}) => {
             
             <div className="navbar-features flex flex-row justify-between items-center mb-3">
                 <div className="flex justify-center items-center">
-                    <img className="cursor-pointer" src="https://ik.imagekit.io/u33i3sss0/Reserva_Business_Directory/hamburger-menu-svg_Wxq0wSF-6.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1659533793921" alt="hamburger manu" />
-                    {/* <img className="w-16" src="https://ik.imagekit.io/u33i3sss0/Reserva_Business_Directory/reserva-fs-logo_j23muE1bz.png?ik-sdk-version=javascript-1.4.3&updatedAt=1659533612929" alt="reserva fs logo" /> */}
+                    <img className="cursor-pointer md:hidden" src="https://ik.imagekit.io/u33i3sss0/Reserva_Business_Directory/hamburger-menu-svg_Wxq0wSF-6.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1659533793921" alt="hamburger manu" />
+                    <img className="w-28 hidden md:inline" src="https://ik.imagekit.io/u33i3sss0/Reserva_Business_Directory/reserva-fs-logo_j23muE1bz.png?ik-sdk-version=javascript-1.4.3&updatedAt=1659533612929" alt="reserva fs logo" />
                 </div>
 
                 <input className="hidden md:inline h-8 p-2 rounded-sm bg-gray-800" placeholder="Search any products" type="text" />
