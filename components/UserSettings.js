@@ -1,6 +1,6 @@
 const UserSettings = () => {
     return ( 
-        <div className="user-settings__container flex justify-center items-center">
+        <div className="user-settings__container flex justify-center items-center cursor-pointer">
             <div>
                 <p>Jon Jackson</p>
                 <p className="text-gray-400 text-xs">Company name</p>
