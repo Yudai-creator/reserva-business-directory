@@ -1,8 +1,9 @@
 import UserSettings from "./UserSettings";
 import SearchBar from "./SearchBar";
 
-const NavBar = () => {
+const NavBar = ({children}) => {
     return ( 
+        <>
         <div className="navbar__container relative bg-gray-900 p-3 flex flex-col justify-between">
             
             <div className="navbar-features flex flex-row justify-between items-center mb-3">
@@ -17,6 +18,8 @@ const NavBar = () => {
             </div>
             <SearchBar/>
         </div>
+        {children}
+        </>
      );
 }
  
