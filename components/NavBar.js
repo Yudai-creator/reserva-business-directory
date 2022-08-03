@@ -1,4 +1,5 @@
 import UserSettings from "./UserSettings";
+import SearchBar from "./SearchBar";
 
 const NavBar = () => {
     return ( 
@@ -9,13 +10,13 @@ const NavBar = () => {
                     <img className="cursor-pointer" src="https://ik.imagekit.io/u33i3sss0/Reserva_Business_Directory/hamburger-menu-svg_Wxq0wSF-6.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1659533793921" alt="hamburger manu" />
                     {/* <img className="w-16" src="https://ik.imagekit.io/u33i3sss0/Reserva_Business_Directory/reserva-fs-logo_j23muE1bz.png?ik-sdk-version=javascript-1.4.3&updatedAt=1659533612929" alt="reserva fs logo" /> */}
                 </div>
-            
+
+                <input className="hidden h-8 p-2 rounded-sm bg-gray-800" placeholder="Search any products" type="text" />
+
                 <UserSettings/>
             </div>
             
-            <div className="search-bar flex-shrink-0">
-                <input className="min-w-full h-8 p-2 rounded-sm bg-gray-800" placeholder="Search any products" type="text" />
-            </div>
+            <SearchBar/>
         </div>
      );
 }
