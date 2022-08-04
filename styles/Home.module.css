@@ -7,6 +7,7 @@
 .home__filter_heading a{
   color: black;
   font-size: 0.75em;
+  font-weight: bold;
 }
 
 @media (min-width: 768px) {

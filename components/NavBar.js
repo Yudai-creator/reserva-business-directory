@@ -12,7 +12,7 @@ const NavBar = ({children}) => {
                     <img className="w-28 hidden md:inline" src="https://ik.imagekit.io/u33i3sss0/Reserva_Business_Directory/reserva-fs-logo_j23muE1bz.png?ik-sdk-version=javascript-1.4.3&updatedAt=1659533612929" alt="reserva fs logo" />
                 </div>
 
-                <input className="hidden md:inline h-8 p-2 rounded-sm bg-gray-800" placeholder="Search any products" type="text" />
+                <input className="hidden md:inline w-1/2 h-10 p-2 rounded-sm bg-gray-800" placeholder="Search any products" type="text" />
 
                 <UserSettings/>
             </div>
