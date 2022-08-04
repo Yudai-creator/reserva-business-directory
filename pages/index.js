@@ -2,12 +2,17 @@ import styles from '../styles/Home.module.css'
 // import NavBar from '../components/NavBar'
 import TopSuppliers from '../components/TopSuppliers'
 import Link from 'next/link'
+import Head from 'next/head'
 
 export default function Home() {
   return (
     <>
+    <Head>
+      <title>Reserva Business Directory</title>
+      <meta name='keywords' content='Get to know the suppliers for your business'/>
+    </Head>
     <div className="home__heading p-3 rounded-t-lg">
-      <div className="home__headline relative bg-headline-image bg-cover bg-no-repeat bg-left-top p-3 w-full h-80">
+      <div className="home__headline relative bg-headline-image  bg-cover bg-no-repeat bg-left-top p-3 w-full h-80">
         <div className="headline__text absolute top-16">
           <h1 className="text-4xl font-bold md:text-6xl">Meet our growers</h1>
           <p className="text-xs md:text-lg">Explore through hundreds of suppliers that you can connect with.</p>
