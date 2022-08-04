@@ -1,0 +1,70 @@
+{
+  "suppliers_data": [
+    {
+      "id": 1,
+      "company_name": "Campo Verde Fruits",
+      "location": "Guadalajara, Mexico",
+      "business_type": "Grower/Producer",
+      "overview": "Trading company that started working in 2015. Sending product to Europe and the Middle East. Alliances with producers and packers who allow us to send avocado all year round. Strongest season from May to February ",
+      "logo": "https://ik.imagekit.io/u33i3sss0/Reserva_Business_Directory/company_logos/logo_campo_verde_0QXBi-Kt0.PNG?ik-sdk-version=javascript-1.4.3&updatedAt=1659531470973",
+      "supplier_commodities": [
+        {
+          "id": 1,
+          "product": "Avocado",
+          "variant": "Hass"
+        }
+      ],
+      "company_certifications": [
+        {
+          "id": 1,
+          "date": "Nov 18, 2020",
+          "cert_logo":"https://ik.imagekit.io/u33i3sss0/Reserva_Business_Directory/company_logos/global-g-a-p-logo-7AE0F2947E-seeklogo.com_pObCZ5nJK.png?ik-sdk-version=javascript-1.4.3&updatedAt=1659628993250"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "company_name": "Comercializadora la popular de Sinaloa",
+      "location": "Culiacan, Sinaloa",
+      "business_type": "Producer",
+      "overview": "Trading company that started working in 2002. Roma tomato is our number one product. The goal is to satisfy the customers of different markets, warehouses and supermarkets with good quality and price.",
+      "logo": "https://ik.imagekit.io/u33i3sss0/Reserva_Business_Directory/company_logos/company_logo_2_aVC4nDa68.PNG?ik-sdk-version=javascript-1.4.3&updatedAt=1659628144506",
+      "supplier_commodities": [
+        {
+          "id": 1,
+          "product": "Tomatoes",
+          "variant": "Roma"
+        }
+      ],
+      "company_certifications": [
+        {
+          "id": 1,
+          "date": "Nov 18, 2020",
+          "cert_logo":"https://ik.imagekit.io/u33i3sss0/Reserva_Business_Directory/company_logos/global-g-a-p-logo-7AE0F2947E-seeklogo.com_pObCZ5nJK.png?ik-sdk-version=javascript-1.4.3&updatedAt=1659628993250"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "company_name": "Consorcio Comercial Los Migueles",
+      "location": "Uruapan, Mexico",
+      "business_type": "Grower",
+      "overview": "Trading company that started working in 2018. Versatile society, with wide commercial capacity and with a great sense of responsibility. Effective and durable commercial relationship.",
+      "logo": "https://ik.imagekit.io/u33i3sss0/Reserva_Business_Directory/company_logos/company_logo_TIFbJtokO.PNG?ik-sdk-version=javascript-1.4.3&updatedAt=1659628144508",
+      "supplier_commodities": [
+        {
+          "id": 1,
+          "product": "Avocado",
+          "variant": "Hass"
+        }
+      ],
+      "company_certifications": [
+        {
+          "id": 1,
+          "date": "Nov 18, 2020",
+          "cert_logo":"https://ik.imagekit.io/u33i3sss0/Reserva_Business_Directory/company_logos/global-g-a-p-logo-7AE0F2947E-seeklogo.com_pObCZ5nJK.png?ik-sdk-version=javascript-1.4.3&updatedAt=1659628993250"
+        }
+      ]
+    }
+  ]
+}
