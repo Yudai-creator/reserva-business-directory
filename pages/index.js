@@ -1,23 +1,11 @@
 import styles from '../styles/Home.module.css'
 // import NavBar from '../components/NavBar'
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import TopSuppliers from '../components/TopSuppliers'
 import Link from 'next/link'
 import Head from 'next/head'
 
 export default function Home() {
-
-  useEffect(() =>{
-    const fetchData = async () => {
-      const res = await fetch('http://localhost:5000/suppliers_data')
-      const data = await res.json()
-
-      console.log(data)
-    }
-
-    fetchData()
-  }, [])
-
   return (
     <>
     {/* Home meta tags */}
