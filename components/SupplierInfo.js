@@ -6,7 +6,7 @@ const SupplierInfo = ({data}) => {
         <div className="text-black mb-6">
             <div className="supplier_info_columns flex">
                 <div className="supplier__info_left-column">
-                
+
                     {/* Left column supplier info */}
                     <div className="flex justify-between items-center">
                         <div className="flex justify-center">
@@ -26,6 +26,9 @@ const SupplierInfo = ({data}) => {
                 {/* Right column supplier info */}
                 <div className="supplier__info_right-column hidden sm:block text-gray-900">
                     
+                </div>
+                <div className="supplier__gallery">
+
                 </div>
             </div>
             <div className="card__controls">
