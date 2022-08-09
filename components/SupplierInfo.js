@@ -3,7 +3,7 @@ import ActionBtn from "./ActionBtn";
 const SupplierInfo = ({data}) => {
 
     return ( 
-        <div className="text-black">
+        <div className="text-black mb-6">
             <div className="supplier__list_left-column">
                 <div className="flex justify-between items-center">
                     <div>

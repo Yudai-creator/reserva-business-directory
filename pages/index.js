@@ -1,5 +1,4 @@
 import styles from '../styles/Home.module.css'
-// import NavBar from '../components/NavBar'
 import { useEffect, useState } from 'react'
 import TopSuppliers from '../components/TopSuppliers'
 import Link from 'next/link'
