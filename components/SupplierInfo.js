@@ -1,4 +1,4 @@
-
+import ActionBtn from "./ActionBtn";
 
 const SupplierInfo = ({data}) => {
 
@@ -15,8 +15,8 @@ const SupplierInfo = ({data}) => {
                 
                 <p className="text-xs">{data.overview}</p>
                 <div className="card__controls">
-                    
-                </div>
+                    <ActionBtn/>
+                </div>  
             </div>
           {/* <strong>{data.supplier_commodities.product}</strong> */}
         </div>
