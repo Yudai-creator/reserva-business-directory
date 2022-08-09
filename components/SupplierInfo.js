@@ -13,7 +13,7 @@ const SupplierInfo = ({data}) => {
                     <img src={data.logo} alt="company logo" />
                 </div>  
                 
-                <p className="text-xs">{data.overview}</p>
+                <p className="text-xs mb-3">{data.overview}</p>
                 <div className="card__controls">
                     <ActionBtn/>
                 </div>  

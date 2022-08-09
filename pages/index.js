@@ -5,6 +5,19 @@ import Link from 'next/link'
 import Head from 'next/head'
 
 export default function Home() {
+  const [dataSet, setData] = useState([])
+
+    useEffect(() =>{
+        const fetchData = async () => {
+        const res = await fetch('http://localhost:5000/suppliers_data')
+        const dataSet = await res.json()
+
+        setData(dataSet)
+        }
+
+        fetchData()
+    }, [])
+
   return (
     <>
     {/* Home meta tags */}
@@ -29,7 +42,7 @@ export default function Home() {
         </div>
       </div>
       <div className="home__suppliers">
-        <TopSuppliers/>
+        <TopSuppliers dataSet={dataSet}/>
       </div>
     </div>
     </>

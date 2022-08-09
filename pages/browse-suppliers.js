@@ -1,5 +1,4 @@
-
-import { useState, useEffect } from "react";
+import { useEffect, useState } from 'react'
 import SupplierInfo from "../components/SupplierInfo";
 
 const browseSuppliers = () => {
@@ -18,7 +17,7 @@ const browseSuppliers = () => {
 
     return ( 
         <div className="p-3">
-            <h1 className="text-gray-900 font-bold">Meet the best suppliers in the industry</h1>
+            <h1 className="text-gray-900 font-bold mb-7">Meet the best suppliers in the industry</h1>
             <div className="supplier__info">
                 {dataSet.map((data) => (<SupplierInfo data={data} key={data.id}/>))}
             </div>

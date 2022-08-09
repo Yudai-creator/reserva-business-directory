@@ -1,20 +1,20 @@
 import SupplierInfo from "./SupplierInfo";
 import { useState, useEffect } from "react";
 
-const TopSuppliers = () => {
+const TopSuppliers = ({dataSet}) => {
 
-    const [dataSet, setData] = useState([])
+    // const [dataSet, setData] = useState([])
 
-    useEffect(() =>{
-        const fetchData = async () => {
-        const res = await fetch('http://localhost:5000/suppliers_data')
-        const dataSet = await res.json()
+    // useEffect(() =>{
+    //     const fetchData = async () => {
+    //     const res = await fetch('http://localhost:5000/suppliers_data')
+    //     const dataSet = await res.json()
 
-        setData(dataSet)
-        }
+    //     setData(dataSet)
+    //     }
 
-        fetchData()
-    }, [])
+    //     fetchData()
+    // }, [])
 
     return ( 
         <>
