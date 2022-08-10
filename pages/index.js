@@ -1,6 +1,7 @@
 import styles from '../styles/Home.module.css'
 import { useEffect, useState } from 'react'
 import TopSuppliers from '../components/TopSuppliers'
+import SideMenu from '../components/SideMenu'
 import Link from 'next/link'
 import Head from 'next/head'
 
@@ -25,6 +26,9 @@ export default function Home() {
       <title>Reserva Business Directory</title>
       <meta name='keywords' content='Get to know the suppliers for your business'/>
     </Head>
+
+    {/* Side Menu */}
+    <SideMenu/>
 
     {/* Home layout */}
     <div className="home__heading p-3 rounded-t-lg">
