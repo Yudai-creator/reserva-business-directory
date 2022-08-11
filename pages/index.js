@@ -32,7 +32,7 @@ export default function Home() {
 
     {/* Home layout */}
     <div className="home__heading p-3 rounded-t-lg">
-      <div className="home__headline relative bg-headline-image  bg-cover bg-no-repeat bg-left-top sm:bg-center md:bg-[center_bottom] xl:bg-[center_bottom_-5rem] p-3 w-full h-80 xl:h-96">
+      <div className={`${styles.home__headline} relative background-blend-mode: overlay; bg-headline-image bg-cover bg-no-repeat bg-left-top sm:bg-center md:bg-[center_bottom] xl:bg-[center_bottom_-5rem] p-3 w-full h-80 xl:h-96`}>
         <div className="headline__text absolute top-16">
           <h1 className="text-4xl font-bold md:text-6xl">Meet our growers</h1>
           <p className="text-xs md:text-lg">Explore through hundreds of suppliers that you can connect with.</p>

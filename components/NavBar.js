@@ -26,17 +26,18 @@ const NavBar = ({children}) => {
                         </ul>
                     </div>
                 </div>
-
-                <input className="hidden md:inline w-1/2 h-10 p-2 rounded-sm bg-blue-400 text-white placeholder:text-white transition-all ease-in-out duration-200 hover:-translate-y-1 hover:shadow-sm" placeholder="Search any products" type="text" />
+                
+                 
+                <input className="hidden md:inline w-1/2 h-10 p-2 rounded-sm bg-blue-400 text-white placeholder:transition-all placeholder:ease-in-out placeholder:text-blue-300 focus:placeholder:opacity-0 transition-all ease-in-out duration-200 hover:-translate-y-1 hover:shadow-sm" placeholder="Search any products" type="text" />
 
                 <div className="flex flex-row justify-between items-center">
-                    
-
                     <UserSettings/>
                 </div>
                 
             </div>
-            <SearchBar/>
+            <div>
+                <SearchBar/>
+            </div>
         </div>
         {children}
         </>

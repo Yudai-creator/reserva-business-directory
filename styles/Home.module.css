@@ -1,3 +1,7 @@
+.home__headline{
+  background-color: black;
+}
+
 .home__filter_heading{
   display: flex;
   justify-content: space-between;
