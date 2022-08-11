@@ -1,9 +1,9 @@
 import ActionBtn from "./ActionBtn";
 
-const SupplierInfo = ({data}) => {
-
+const SupplierInfo = ({data, bgWhite, shadowSm, rounded, padding}) => {
+    // ${graybg}
     return ( 
-        <div className="text-black mb-6">
+        <div className={`text-black mb-6 ${bgWhite} ${shadowSm} ${rounded} ${padding}`}>
             <div className="supplier_info_columns flex">
                 <div className="supplier__info_left-column">
 

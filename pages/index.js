@@ -28,7 +28,7 @@ export default function Home() {
     </Head>
 
     {/* Side Menu */}
-    <SideMenu/>
+    {/* <SideMenu/> */}
 
     {/* Home layout */}
     <div className="home__heading p-3 rounded-t-lg">
