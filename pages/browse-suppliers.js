@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import SupplierInfo from "../components/SupplierInfo";
 
-const browseSuppliers = () => {
+const BrowseSuppliers = () => {
     const [dataSet, setData] = useState([])
 
     useEffect(() =>{
@@ -27,4 +27,4 @@ const browseSuppliers = () => {
      );
 }
  
-export default browseSuppliers;
+export default BrowseSuppliers;
